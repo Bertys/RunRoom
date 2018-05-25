@@ -1,0 +1,225 @@
+/*Estilos del Menú principal*/
+#menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0em;
+    padding: 1.2em 0;
+    overflow: hidden;
+    background-color: #455A64;
+}
+
+#menu li {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+#menu li:last-child {
+    float:right;
+}
+#nameBC{
+    color: darkgrey !important;
+}
+#logo {
+    height: 10em;
+    width: 2.5em;
+/*    background: url('../imagenes/transparent.png') -325px -15px;*/
+}
+/*////////////////////////////////////////////////////*/
+
+/*Estilos del Submenú*/
+#subMenu {
+    position: relative;
+    margin-top: auto;
+    background-color: #78909C;
+}
+
+#subMenu li {
+    display: inline-block;
+    padding: 1.5em 1em 1em 1em;
+    color: #CFD8DC;
+    text-align: bottom;
+    text-decoration: none;
+}
+
+#subMenu li:hover {
+/*    background-color: #78909C;*/
+}
+
+/*////////////////////////////////////////////////////*/
+
+/*Estilos de la Lista de Personajes*/
+#lista {
+    display: block;
+    position: absolute;
+    top: 5em;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.active{
+    border-bottom: 0.25em solid aquamarine;
+    font-weight: 900;
+}
+
+.neww{
+    background: url(/imagenes/corner_yellow.png);
+    background-size: 3em;
+    background-repeat: no-repeat;
+}
+
+
+#stats {
+    position: relative;
+    background-color: #999;
+}
+
+#stats li {
+    margin-right: 3em;
+    border: 0.13em solid grey;
+    border-radius: 2em;
+    float: left;
+    display: inline-block;
+    color: #CFD8DC;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+.listTt{
+    border-bottom: 0.11em solid #888;
+    padding: 0.15em 0.25em 2em 2em;
+    text-align: center;
+}
+
+.listTt div{
+    padding-top: 1em;
+    text-align: center;
+    display: inline-block;
+}
+
+ .top{
+    border-left: 0.5em solid #FF4081;
+}
+
+/*////////////////////////////////////////////////////*/
+
+/*Estilos Generales*/
+li{
+    list-style-type: none; 
+}
+
+.none{
+    display: none;
+}
+
+.display {
+    display: inline-block;
+    border-radius: 20em;
+    width: 6em;
+    height: 6em;
+/*    background: url(allPj.jpg) -40px -2180px;*/
+}
+.floatL{
+    border-radius: 20em;
+    width: 9em;
+    height: 9em;
+    float: left;
+}
+
+/*////////////////////////////////////////////////////*/
+
+/*Estilos de la vista de los resultados*/
+
+#viewport {
+    position: relative;
+    width: 100%;
+}
+
+#result{
+    position: relative;
+    top: 4.8em;
+    width: 50%;
+    background-color: #FFF;
+    float: right;
+    border: 0.2em solid;
+    padding: 1em;
+    box-shadow: -0.5em 0.4em #888888;
+}
+
+#resulTT{
+    padding: 2em 2em 2em 2em;
+}
+
+#resulTT img{
+    padding-right: 2em;
+}
+
+#xXx {
+    position: relative;
+    top: 0;
+    float: right;
+}
+
+#descript, #history, #actr {
+    padding: 6em 2em 3em 5em;
+}
+#final {
+    padding-top: 2em; 
+}
+
+#final li{
+    float: left;
+    padding: 1em 1em 1em 1em; 
+}
+
+/*////////////////////////////////////////////////////*/
+
+/*Estilos para la valoración con estrellitas*/
+.star {
+    font-size: x-large;
+    width: 1em;
+    display: inline-block;
+    color: gray;
+}
+.star:last-child {
+    margin-right: 0;
+}
+.star:before {
+    content:'\2605';
+}
+.star.on {
+    color: aqua;
+}
+.star.half:after {
+    content:'\2605';
+    color: aqua;
+    position: absolute;
+    margin-left: -0.84em;
+    width: 0.45em;
+    overflow: hidden;
+}
+
+/*////////////////////////////////////////////////////*/
+
+/*CSS Campanita y insignia*/
+.badge:after{
+
+    content:"3";
+    position: absolute;
+    background: violet;
+    height:1rem;
+    top:1.5rem;
+    right:.6rem;
+    width:1rem;
+    text-align: center;
+    line-height: 1rem;;
+    font-size: 1rem;
+    border-radius: 50%;
+    color:white;
+    border:0.1rem solid blue;
+}
