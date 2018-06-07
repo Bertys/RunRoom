@@ -122,25 +122,25 @@ function makeList() {
 function cambiarEscudo(idPj){
     switch (idPj) {
     case "0":
-        document.getElementById("logo").style.background = "url('../imagenes/imagesGot/casas.jpg') 0px -16px";
+        document.getElementById("logo").style.background = "url('./imagenes/imagesGot/casas.jpg') 0px -16px";
         break;
     case "1":
-        document.getElementById("logo").style.background = "url('../imagenes/imagesGot/casas.jpg') -165px -16px";
+        document.getElementById("logo").style.background = "url('./imagenes/imagesGot/casas.jpg') -165px -16px";
         break;
     case "2":
-        document.getElementById("logo").style.background = "url('../imagenes/imagesGot/casas.jpg') -90px -16px";
+        document.getElementById("logo").style.background = "url('./imagenes/imagesGot/casas.jpg') -90px -16px";
         break;
     case "3":
-        document.getElementById("logo").style.background = "url('../imagenes/imagesGot/casas.jpg') -230px -96px";
+        document.getElementById("logo").style.background = "url('./imagenes/imagesGot/casas.jpg') -230px -96px";
         break;
     case "4":
-        document.getElementById("logo").style.background = "url('../imagenes/imagesGot/casas.jpg')  -90px -16px";
+        document.getElementById("logo").style.background = "url('./imagenes/imagesGot/casas.jpg')  -90px -16px";
         break;
     case "5":
-        document.getElementById("logo").style.background = "url('../imagenes/imagesGot/casas.jpg') -165px -16px";
+        document.getElementById("logo").style.background = "url('./imagenes/imagesGot/casas.jpg') -165px -16px";
         break;
 //    default:
-//        document.getElementById("logo").style.background = "url('/imagenes/transparent.png') 0px 0px";
+//        document.getElementById("logo").style.background = "url('./imagenes/transparent.png') 0px 0px";
 //        break;
     }
 }
@@ -150,7 +150,7 @@ function closeIt(){
         document.getElementById("lista").style.width = "100%";
         document.getElementById("result").style.display = "none";
         document.getElementById("nameBC").innerHTML = "";
-        document.getElementById("logo").style.background = "url('../imagenes/transparent.png') -165px -16px";
+        document.getElementById("logo").style.background = "url('./imagenes/transparent.png') -165px -16px";
 }
 
 //Funciones auxiliares para llevar el control del flujo de información según los clicks del usuario
