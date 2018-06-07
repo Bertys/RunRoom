@@ -19,7 +19,7 @@ Array.prototype.slice.call(list).forEach(function(listItem){
       
     // Add it to the page
     document.getElementById("viewport").appendChild(listContainer22);
-    console.log(this.innerHTML);
+    //console.log(this.innerHTML);
       var result = "<div id=\"resulTT\"><img class=\"floatL\" src="+arrPersonajes[this.id].imagen+"><b>"+arrPersonajes[this.id].name()+"</b><br><b>Alias:</b> "+arrPersonajes[this.id].alias+"<br><b>Nacimiento:</b> "+arrPersonajes[this.id].nacimiento+"<br><b>Familia:</b> "+arrPersonajes[this.id].familia+"</div>";
       document.getElementById("result").innerHTML = "<div id=\"xXx\" onclick=\"closeIt()\">X</div>";
       document.getElementById("result").innerHTML += result;
