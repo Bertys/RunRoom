@@ -67,7 +67,7 @@
 }
 
 .neww{
-    background: url(/imagenes/corner_yellow.png);
+    background: url(./imagenes/corner_yellow.png);
     background-size: 3em;
     background-repeat: no-repeat;
 }
